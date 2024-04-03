@@ -27,3 +27,9 @@ EXPOSE 80
 
 # Step 10: Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
+
+# To deploy on ezhost.dev you need to deploy from a git repo, 
+#paste the url of the repo, 
+#when the app is running, go on the expose part, 
+#the port is 80 and choose the subdomain you want 
+#after go on https://the_subdomain_you_choose.ezhost-app.com and you will see your trello board
